@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
-import "../styles/Header.css";
+import '../styles/Header';
 
-function Header(props){
+export default class Header extends Component{
+    render(){
     return (
     <div class="jumbotron jumbotron-fluid">
     <div class="container">
@@ -10,6 +11,7 @@ function Header(props){
     </div>
   </div>
     );
+}
 }
 
 
